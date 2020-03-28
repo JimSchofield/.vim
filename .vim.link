@@ -1,0 +1,24 @@
+"============================
+" Vim autoloader
+"============================
+
+set nocompatible
+
+function! s:SourceFilesIn(directory)
+  let directory_path = '~/.dotfiles/vim/' . a:directory . '/*'
+  for config_file in split(glob(directory_path), '\n')
+    if filereadable(config_file)
+      execute 'source' config_file
+    endif
+  endfor
+endfunction
+
+
+if empty(glob('~/.vim/autoload/plug.vim'))
+	silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+	        \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+	autocmd VimEnter * PlugInstall --sync | source ~/.vimrc
+endif
+
+" Source dem filez!
+call s:SourceFilesIn('rcfiles')
