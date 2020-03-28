@@ -7,6 +7,9 @@ set incsearch
 set ignorecase
 set smartcase
 
+"clear search
+nnoremap <leader>cs :noh<CR>
+
 " Search for selected
 vnoremap <leader>/ y/<C-R>=escape(@",'/\')<CR><CR>
 

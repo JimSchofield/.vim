@@ -13,7 +13,7 @@ set directory^=$HOME/.vim/tmp/
 " Kill all other buffers
 command! BufOnly silent! execute "%bd|e#|bd#"
 
-" Diff view
+"====== Diff view ======
 " Convenient command to see the difference between the current buffer and the
 " file it was loaded from, thus the changes you made.
 if !exists(":DiffOrig")
@@ -21,3 +21,6 @@ if !exists(":DiffOrig")
           \ | wincmd p | diffthis
 endif
 
+"====== Nerd Tree ======
+" autocmd vimenter * NERDTree
+let NERDtreeShowHidden=1
