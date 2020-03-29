@@ -6,7 +6,7 @@
 set nocompatible
 
 function! s:SourceFilesIn(directory)
-  let directory_path = '~/.dot/vim/' . a:directory . '/*'
+  let directory_path = '~/.dot/.vim/' . a:directory . '/*'
   for config_file in split(glob(directory_path), '\n')
     if filereadable(config_file)
       execute 'source' config_file
