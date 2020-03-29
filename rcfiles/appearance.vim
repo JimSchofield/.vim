@@ -7,8 +7,11 @@ set wrap!
 set scrolloff=20
 set sidescrolloff=20
 
+" show key presses
+set showcmd
+
 " set line number
-:set nu rnu
+set nu rnu
 
 "====== Tabs ======
 filetype plugin indent on
