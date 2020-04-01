@@ -13,7 +13,7 @@ nnoremap <leader>tab :IndentLinesToggle<CR>
 nnoremap <leader>tc :call ToggleConceal()<CR>
 
 " Use COC go to def
-nmap <silent> <leader>gd <Plug>(coc-definition)
+nmap <silent> <leader>gd :call CocAction('jumpDefinition', 'tab drop')<CR>
 
 " Key binding to toggle tabs
 :nnoremap <leader>tt :call ToggleTabs()<cr>

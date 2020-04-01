@@ -5,9 +5,11 @@ Plug 'dense-analysis/ale'
 
 " Important: need to have these command line programs installed
 let g:ale_fixers = {
-    \ 'javascript': ['eslint'],
+    \ 'javascript': ['prettier', 'eslint'],
     \ 'rust': ['rustfmt'],
+    \ 'typescript': ['prettier', 'eslint'],
+    \ 'typescriptreact': ['prettier', 'eslint'],
     \ }
 
 " set this variable to 1 to fix files when you save them.
-let g:ale_fix_on_save = 1
+" let g:ale_fix_on_save = 1
