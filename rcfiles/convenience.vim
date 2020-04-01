@@ -2,7 +2,7 @@
 " Convenience
 "======================================================
 map <f6> :NERDTreeToggle<cr>
-nnoremap <leader>vim :tabe ~/.vimrc<CR>
+nnoremap <leader>vim :tabe ~/.dot/.vim/<CR>
 nnoremap <leader>s :source ~/.vimrc<CR>
 nnoremap <leader>w :w<CR>
 nnoremap <leader>b :Buffers<CR>
