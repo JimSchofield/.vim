@@ -40,4 +40,8 @@ hi Search guibg=lightblue guifg=#2d2d2d
 " Change bracket highlighting
 :hi MatchParen guibg=plum3 guifg=#2d2d2d
 
+" Pmenu
+" hi Pmenu guibg=grey11
+hi Pmenu guibg=#2d2d2d
+
 " TODO: re-do colors for new-moon?

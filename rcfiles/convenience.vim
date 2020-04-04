@@ -27,3 +27,6 @@ nmap <silent> <leader>gd :call CocAction('jumpDefinition', 'tab drop')<CR>
 nnoremap <C-S-n> :tabnext<CR>
 nnoremap <C-S-p> :tabprevious<CR>
 nnoremap <C-t> :tabnew<CR>
+
+" Color highlighting
+nnoremap <leader>ch :ColorToggle<CR>
