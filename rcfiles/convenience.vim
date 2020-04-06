@@ -23,6 +23,9 @@ nnoremap <leader>tc :call ToggleConceal()<CR>
 " Use COC go to def
 nmap <silent> <leader>gd :call CocAction('jumpDefinition', 'tab drop')<CR>
 
+" COC
+nnoremap <leader>coc :CocAction<CR>
+
 " Navigate tabs
 nnoremap <C-S-n> :tabnext<CR>
 nnoremap <C-S-p> :tabprevious<CR>
