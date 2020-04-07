@@ -19,6 +19,3 @@ if !exists(":DiffOrig")
           \ | wincmd p | diffthis
 endif
 
-"====== Nerd Tree ======
-" autocmd vimenter * NERDTree
-let NERDtreeShowHidden=1
