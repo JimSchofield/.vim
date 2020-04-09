@@ -44,4 +44,6 @@ hi Search guibg=lightblue guifg=#2d2d2d
 " hi Pmenu guibg=grey11
 hi Pmenu guibg=#2d2d2d
 
+" hi Type guifg=#f2777a
+
 " TODO: re-do colors for new-moon?
