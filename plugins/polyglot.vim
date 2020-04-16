@@ -3,7 +3,6 @@
 "======================================================
 Plug 'sheerun/vim-polyglot'
 
-
 " Toggle conceal
 " Used mostly in md files
 " mapped in ../rcfiles/convenience.vim
