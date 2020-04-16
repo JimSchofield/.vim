@@ -27,9 +27,13 @@ nmap <silent> <leader>gd :call CocAction('jumpDefinition', 'tab drop')<CR>
 nnoremap <leader>coc :CocAction<CR>
 
 " Navigate tabs
-nnoremap <C-S-n> :tabnext<CR>
-nnoremap <C-S-p> :tabprevious<CR>
+nnoremap <Tab> :tabnext<CR>
+nnoremap <S-Tab> :tabprevious<CR>
 nnoremap <C-t> :tabnew<CR>
 
 " Color highlighting
 nnoremap <leader>ch :ColorToggle<CR>
+
+
+" Add inner spaces in imports
+command! AddSpacesInImports :%s/import \(.*\){\([a-z].*[a-z]\)}/import \1{ \2 }/g 

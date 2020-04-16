@@ -2,6 +2,9 @@
 " Markdown-related plugins
 "======================================================
 
+" Markdown syntax
+Plug 'plasticboy/vim-markdown'
+
 " Distraction-free editing
 Plug 'junegunn/goyo.vim'
  
