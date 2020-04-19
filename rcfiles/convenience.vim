@@ -6,6 +6,7 @@ nnoremap <leader>nf :NERDTreeFind<CR>
 nnoremap <leader>vim :tabe ~/.dot/.vim/<CR>
 nnoremap <leader>s :source ~/.vimrc<CR>
 nnoremap <leader>w :w<CR>
+nnoremap <leader>q :q<CR>
 nnoremap <leader>b :Buffers<CR>
 nnoremap <leader>r :Rg<CR>
 
