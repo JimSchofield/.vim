@@ -32,8 +32,9 @@ nnoremap <Tab> :tabnext<CR>
 nnoremap <S-Tab> :tabprevious<CR>
 nnoremap <C-t> :tabnew<CR>
 
-" Color highlighting
+" Color highlighting and debugging
 nnoremap <leader>ch :ColorToggle<CR>
+nnoremap <leader>testc :so $VIMRUNTIME/syntax/hitest.vim<CR>
 
 
 " Add inner spaces in imports
