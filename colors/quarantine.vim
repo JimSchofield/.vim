@@ -151,5 +151,6 @@ call s:Highlight('Title', s:white , '', 'bold')
 call s:Highlight('DiffAdd', s:green_100 , '', 'bold')
 call s:Highlight('DiffChange', s:orange_100 , '', 'bold')
 call s:Highlight('DiffDelete', s:red , '', 'bold')
+call s:Highlight('DiffText', s:cyan, '', 'bold')
 
 " vim:ft=vim
