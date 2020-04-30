@@ -21,6 +21,7 @@ set tabstop=4
 set shiftwidth=4
 " on pressing tab
 set expandtab
+" set noexpandtab
 
 " command to switch between...
 command! -nargs=1 ChangeTabs :set shiftwidth=<args> tabstop=<args> expandtab

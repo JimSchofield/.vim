@@ -13,6 +13,7 @@ nnoremap <leader>r :Rg<CR>
 " Fugitive
 nnoremap <leader>gs :Gstatus<CR>
 nnoremap <leader>gc :Gcommit<CR>
+nnoremap <leader>gca :Gcommit --amend<CR>
 
 " Indent lines
 nnoremap <leader>tab :IndentLinesToggle<CR>
@@ -36,6 +37,9 @@ nnoremap <C-t> :tabnew<CR>
 nnoremap <leader>ch :ColorToggle<CR>
 nnoremap <leader>testc :so $VIMRUNTIME/syntax/hitest.vim<CR>
 
-
 " Add inner spaces in imports
+" TODO: include in jsx file?
 command! AddSpacesInImports :%s/import \(.*\){\([a-z].*[a-z]\)}/import \1{ \2 }/g 
+
+" Run ruby script
+nnoremap <F7> :!ruby %<CR>
