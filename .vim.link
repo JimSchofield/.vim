@@ -25,5 +25,8 @@ call plug#begin('~/.vim/bundle')
 call s:SourceFilesIn('plugins')
 call plug#end()
 
+" Source those custom scripts!
+call s:SourceFilesIn('custom')
+
 " Source dem filez!
 call s:SourceFilesIn('rcfiles')

@@ -43,3 +43,6 @@ command! AddSpacesInImports :%s/import \(.*\){\([a-z].*[a-z]\)}/import \1{ \2 }/
 
 " Run ruby script
 nnoremap <F7> :!ruby %<CR>
+
+" Run Io
+nnoremap <leader>io :!Io %<CR>
