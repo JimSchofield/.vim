@@ -41,8 +41,6 @@ nnoremap <leader>testc :so $VIMRUNTIME/syntax/hitest.vim<CR>
 " TODO: include in jsx file?
 command! AddSpacesInImports :%s/import \(.*\){\([a-z].*[a-z]\)}/import \1{ \2 }/g 
 
-" Run ruby script
+" Run scripts in various runtimes 
 nnoremap <F7> :!ruby %<CR>
-
-" Run Io
 nnoremap <leader>io :!Io %<CR>

@@ -8,3 +8,5 @@ Plug 'maxmellon/vim-jsx-pretty'
 Plug 'cakebaker/scss-syntax.vim'
 Plug 'posva/vim-vue'
 Plug 'rust-lang/rust.vim'
+
+Plug 'adimit/prolog.vim'
