@@ -10,6 +10,14 @@ nnoremap <leader>q :q<CR>
 nnoremap <leader>b :Buffers<CR>
 nnoremap <leader>r :Rg<CR>
 
+"Snippets
+nnoremap <leader>snip :e ~/.config/coc/ultisnips/<CR>
+
+"ALE
+nnoremap <leader>a :ALEFix<CR>
+nnoremap <leader>] <Plug>(ale_next_wrap)
+nnoremap <leader>[ <Plug>(ale_previous_wrap)
+
 " Fugitive
 nnoremap <leader>gs :Gstatus<CR>
 nnoremap <leader>gc :Gcommit<CR>
@@ -29,9 +37,9 @@ nmap <silent> <leader>gd :call CocAction('jumpDefinition', 'tab drop')<CR>
 nnoremap <leader>coc :CocAction<CR>
 
 " Navigate tabs
-nnoremap <Tab> :tabnext<CR>
-nnoremap <S-Tab> :tabprevious<CR>
-nnoremap <C-t> :tabnew<CR>
+nnoremap <silent> <Tab> :tabnext<CR>
+nnoremap <silent> <S-Tab> :tabprevious<CR>
+" nnoremap <C-t> :tabnew<CR>
 
 " Color highlighting and debugging
 nnoremap <leader>ch :ColorToggle<CR>

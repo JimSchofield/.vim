@@ -153,4 +153,7 @@ call s:Highlight('DiffChange', s:orange_100 , '', 'bold')
 call s:Highlight('DiffDelete', s:red , '', 'bold')
 call s:Highlight('DiffText', s:cyan, '', 'bold')
 
+" Plugin-specific
+call s:Highlight('ALEWarningSign', s:orange_100, '', 'bold')
+
 " vim:ft=vim

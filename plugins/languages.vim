@@ -9,4 +9,5 @@ Plug 'cakebaker/scss-syntax.vim'
 Plug 'posva/vim-vue'
 Plug 'rust-lang/rust.vim'
 
-Plug 'adimit/prolog.vim'
+Plug 'elzr/vim-json'
+let g:vim_json_syntax_conceal = 0
