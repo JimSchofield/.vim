@@ -15,8 +15,8 @@ nnoremap <leader>snip :e ~/.config/coc/ultisnips/<CR>
 
 "ALE
 nnoremap <leader>a :ALEFix<CR>
-nnoremap <leader>] <Plug>(ale_next_wrap)
-nnoremap <leader>[ <Plug>(ale_previous_wrap)
+nnoremap <leader>] :ALENextWrap<CR>
+nnoremap <leader>[ :ALEPrevWrap<CR> 
 
 " Fugitive
 nnoremap <leader>gs :Gstatus<CR>
@@ -36,11 +36,6 @@ nmap <silent> <leader>gd :call CocAction('jumpDefinition', 'tab drop')<CR>
 " COC
 nnoremap <leader>coc :CocAction<CR>
 
-" Navigate tabs
-nnoremap <silent> <Tab> :tabnext<CR>
-nnoremap <silent> <S-Tab> :tabprevious<CR>
-" nnoremap <C-t> :tabnew<CR>
-
 " Color highlighting and debugging
 nnoremap <leader>ch :ColorToggle<CR>
 nnoremap <leader>testc :so $VIMRUNTIME/syntax/hitest.vim<CR>
@@ -50,5 +45,5 @@ nnoremap <leader>testc :so $VIMRUNTIME/syntax/hitest.vim<CR>
 command! AddSpacesInImports :%s/import \(.*\){\([a-z].*[a-z]\)}/import \1{ \2 }/g 
 
 " Run scripts in various runtimes 
-nnoremap <F7> :!ruby %<CR>
-nnoremap <leader>io :!Io %<CR>
+" nnoremap <F7> :!ruby %<CR>
+" nnoremap <F7> :!clojure %<CR>
