@@ -8,9 +8,9 @@ Plug 'maxmellon/vim-jsx-pretty'
 Plug 'cakebaker/scss-syntax.vim'
 Plug 'posva/vim-vue'
 Plug 'rust-lang/rust.vim'
+Plug 'cespare/vim-toml'
 
 Plug 'elixir-editors/vim-elixir'
-Plug 'amiralies/coc-elixir', {'do': 'yarn install && yarn prepack'}
 augroup filetypedetect
     au BufRead,BufNewFile *.ex set filetype=elixir
 augroup END
