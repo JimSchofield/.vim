@@ -47,3 +47,4 @@ command! AddSpacesInImports :%s/import \(.*\){\([a-z].*[a-z]\)}/import \1{ \2 }/
 " Run scripts in various runtimes 
 " nnoremap <F7> :!ruby %<CR>
 " nnoremap <F7> :!clojure %<CR>
+nnoremap <F7> :!elixir %<CR>
