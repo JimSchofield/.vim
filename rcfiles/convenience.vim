@@ -16,7 +16,6 @@ nnoremap <leader>snip :e ~/.config/coc/ultisnips/<CR>
 "ALE
 nnoremap <leader>a :ALEFix<CR>
 nnoremap <leader>] :ALENextWrap<CR>
-nnoremap <leader>[ :ALEPrevWrap<CR> 
 
 " Fugitive
 nnoremap <leader>gs :Gstatus<CR>
@@ -30,11 +29,12 @@ nnoremap <leader>tc :call ToggleConceal()<CR>
 " Key binding to toggle tab widths
 :nnoremap <leader>tt :call ToggleTabs()<cr>
 
-" Use COC go to def
-nmap <silent> <leader>gd :call CocAction('jumpDefinition', 'tab drop')<CR>
-
 " COC
-nnoremap <leader>coc :CocAction<CR>
+nmap <silent> <leader>gd :call CocAction('jumpDefinition', 'tab drop')<CR>
+nnoremap <leader>` :CocAction<CR>
+nmap <silent> gr <Plug>(coc-references)
+nmap <silent> <leader>o :<C-u>CocList outline<CR>
+
 
 " Color highlighting and debugging
 nnoremap <leader>ch :ColorToggle<CR>
