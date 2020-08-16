@@ -10,6 +10,10 @@ let g:vim_markdown_conceal_code_blocks = 0
 
 " Distraction-free editing
 Plug 'junegunn/goyo.vim'
+
+nnoremap <leader>go :Goyo<CR>
+autocmd! User GoyoEnter set wrap
+autocmd! User GoyoEnter set wrap!
  
 " " Limelight
 " " I have yet to vet this...
