@@ -9,7 +9,7 @@ let g:ale_fixers = {
     \ 'rust': ['rustfmt'],
     \ 'typescript': ['prettier', 'eslint'],
     \ 'typescriptreact': ['prettier', 'eslint'],
-    \ 'vue': ['eslint'],
+    \ 'vue': ['eslint', 'prettier'],
     \ }
 
 let g:ale_sign_error = '=>'
