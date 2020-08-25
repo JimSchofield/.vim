@@ -48,3 +48,4 @@ command! AddSpacesInImports :%s/import \(.*\){\([a-z].*[a-z]\)}/import \1{ \2 }/
 " nnoremap <F7> :!ruby %<CR>
 " nnoremap <F7> :!clojure %<CR>
 nnoremap <F7> :!elixir %<CR>
+nnoremap <F8> :!npm run build<CR>

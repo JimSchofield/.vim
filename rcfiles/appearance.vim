@@ -16,9 +16,9 @@ set nu rnu
 "====== Tabs ======
 filetype plugin indent on
 " show existing with width
-set tabstop=4
+set tabstop=2
 " when indenting with >
-set shiftwidth=4
+set shiftwidth=2
 " on pressing tab
 set expandtab
 " set noexpandtab
