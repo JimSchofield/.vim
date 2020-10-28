@@ -17,10 +17,10 @@ autocmd! User GoyoEnter set wrap!
  
 " " Limelight
 " " I have yet to vet this...
-" Plug 'junegunn/limelight.vim'
+Plug 'junegunn/limelight.vim'
 " " Use limeline when using goyo
-" autocmd! User GoyoEnter Limelight
-" autocmd! User GoyoLeave Limelight!
+autocmd! User GoyoEnter Limelight
+autocmd! User GoyoLeave Limelight!
 
 " Toggle conceal
 " Used mostly in md files

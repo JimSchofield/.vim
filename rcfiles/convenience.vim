@@ -10,6 +10,8 @@ nnoremap <leader>q :q<CR>
 nnoremap <leader>b :Buffers<CR>
 nnoremap <leader>r :Rg<CR>
 
+nnoremap <leader>path :echo expand("%:p")<CR>
+
 "Snippets
 nnoremap <leader>snip :e ~/.config/coc/ultisnips/<CR>
 

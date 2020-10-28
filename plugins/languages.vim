@@ -9,6 +9,7 @@ Plug 'cakebaker/scss-syntax.vim'
 Plug 'posva/vim-vue'
 Plug 'rust-lang/rust.vim'
 Plug 'cespare/vim-toml'
+Plug 'mustache/vim-mustache-handlebars'
 
 Plug 'elixir-editors/vim-elixir'
 augroup filetypedetect
