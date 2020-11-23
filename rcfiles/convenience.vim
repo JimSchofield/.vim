@@ -9,6 +9,7 @@ nnoremap <leader>w :w<CR>
 nnoremap <leader>q :q<CR>
 nnoremap <leader>b :Buffers<CR>
 nnoremap <leader>r :Rg<CR>
+nnoremap <leader>h :History<CR>
 
 nnoremap <leader>path :echo expand("%:p")<CR>
 
@@ -28,6 +29,9 @@ nnoremap <leader>gca :Gcommit --amend<CR>
 nnoremap <leader>tab :IndentLinesToggle<CR>
 nnoremap <leader>tc :call ToggleConceal()<CR>
 
+" Replace " with '
+vnoremap <leader>' :s/"/'/g<CR>
+
 " Key binding to toggle tab widths
 :nnoremap <leader>tt :call ToggleTabs()<cr>
 
@@ -36,6 +40,7 @@ nmap <silent> <leader>gd :call CocAction('jumpDefinition', 'tab drop')<CR>
 nnoremap <leader>` :CocAction<CR>
 nmap <silent> gr <Plug>(coc-references)
 nmap <silent> <leader>o :<C-u>CocList outline<CR>
+nmap <leader>sr <Plug>(coc-rename)
 
 
 " Color highlighting and debugging
