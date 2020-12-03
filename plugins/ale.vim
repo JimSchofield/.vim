@@ -10,6 +10,7 @@ let g:ale_fixers = {
     \ 'typescript': ['prettier', 'eslint'],
     \ 'typescriptreact': ['prettier', 'eslint'],
     \ 'vue': ['eslint', 'prettier'],
+    \ 'handlebars': ['prettier'],
     \ }
 
 let g:ale_sign_error = '=>'
