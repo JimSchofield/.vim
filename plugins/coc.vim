@@ -47,3 +47,4 @@ function! s:show_documentation()
         call CocAction('doHover')
     endif
 endfunction
+
