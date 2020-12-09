@@ -8,7 +8,8 @@ nnoremap <leader>s :source ~/.vimrc<CR>
 nnoremap <leader>w :w<CR>
 nnoremap <leader>q :q<CR>
 nnoremap <leader>b :Buffers<CR>
-nnoremap <leader>r :Rg<CR>
+nnoremap <leader>rg :Rg<CR>
+nnoremap <leader>rr :Ranger<CR>
 nnoremap <leader>h :History<CR>
 
 nnoremap <leader>path :echo expand("%:p")<CR>

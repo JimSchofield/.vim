@@ -9,6 +9,7 @@ let g:coc_global_extensions = [
             \ 'coc-eslint',
             \ 'coc-json',
             \ 'coc-tslint',
+            \ 'coc-ember',
             \ ]
 
 " use tab for trigger completion with characters ahead and navigate.
