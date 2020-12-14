@@ -3,7 +3,7 @@
 "======================================================
 map <f6> :NERDTreeToggle<cr>
 nnoremap <leader>nf :NERDTreeFind<CR>
-nnoremap <leader>vim :tabe ~/.dot/.vim/<CR>
+nnoremap <leader>vim :tabe ~/.config/myvimrc/<CR>
 nnoremap <leader>s :source ~/.vimrc<CR>
 nnoremap <leader>w :w<CR>
 nnoremap <leader>q :q<CR>

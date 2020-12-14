@@ -11,6 +11,7 @@ let g:coc_global_extensions = [
             \ 'coc-tslint',
             \ 'coc-ember',
             \ ]
+" \ 'coc-tailwindcss',
 
 " use tab for trigger completion with characters ahead and navigate.
 " use command ':verbose imap <tab>' to make sure tab is not mapped by other plugin.

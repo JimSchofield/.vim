@@ -10,9 +10,8 @@ Plug 'posva/vim-vue'
 Plug 'rust-lang/rust.vim'
 Plug 'cespare/vim-toml'
 Plug 'joukevandermaas/vim-ember-hbs'
-" Plug 'mustache/vim-mustache-handlebars'
-
 Plug 'elixir-editors/vim-elixir'
+
 augroup filetypedetect
     au BufRead,BufNewFile *.ex set filetype=elixir
 augroup END
