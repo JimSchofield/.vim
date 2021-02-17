@@ -12,6 +12,7 @@ nnoremap <leader>rg :Rg<CR>
 nnoremap <leader>rr :Ranger<CR>
 nnoremap <leader>h :History<CR>
 nnoremap <leader>tw :set wrap!<CR>
+nnoremap <leader>p :Prettier<CR>
 
 nnoremap <leader>path :echo expand("%:p")<CR>
 
@@ -24,8 +25,8 @@ nnoremap <leader>] :ALENextWrap<CR>
 
 " Fugitive
 nnoremap <leader>gs :Gstatus<CR>
-nnoremap <leader>gc :Gcommit<CR>
-nnoremap <leader>gca :Gcommit --amend<CR>
+nnoremap <leader>gc :Git commit<CR>
+nnoremap <leader>gca :Git commit --amend<CR>
 
 " Indent lines
 nnoremap <leader>tab :IndentLinesToggle<CR>

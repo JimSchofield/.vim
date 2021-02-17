@@ -24,7 +24,7 @@ function! Journal()
     endif
     execute 'Goyo'
 endfun
-nnoremap <leader>j :call Journal()<cr>
+" nnoremap <leader>j :call Journal()<cr>
 
 augroup journal
     autocmd!
