@@ -7,8 +7,8 @@ Plug 'junegunn/fzf.vim'
 " both options are optional. You don't have to install fzf in ~/.fzf
 " and you don't have to run the install script if you use fzf only in Vim.set runtimepath^=~/.vim/bundle/ctrlp.vim
 let g:fzf_files_options = '--reverse --preview "(bat --color=always {}) 2> /dev/null | head -'.&lines.'"'
-nnoremap <leader>gf :Files<cr>
-nnoremap <leader>f :GFiles<cr>
+nnoremap <leader>f :Files<cr>
+nnoremap <leader>gf :GFiles<cr>
 
 " CTRL-A CTRL-Q to select all and build quickfix list
 function! s:build_quickfix_list(lines)

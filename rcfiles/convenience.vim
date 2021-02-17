@@ -12,6 +12,7 @@ nnoremap <leader>rg :Rg<CR>
 nnoremap <leader>rr :Ranger<CR>
 nnoremap <leader>h :History<CR>
 nnoremap <leader>tw :set wrap!<CR>
+nnoremap <leader>p :Prettier<CR>
 
 nnoremap <leader>path :echo expand("%:p")<CR>
 
