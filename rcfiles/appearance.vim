@@ -3,7 +3,7 @@
 "======================================================
 
 syntax on
-set wrap!
+set nowrap
 set scrolloff=20
 set sidescrolloff=20
 

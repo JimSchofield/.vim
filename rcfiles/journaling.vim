@@ -19,12 +19,12 @@ function! Journal()
     if (filereadable(expand('%:p')) == 0)
         normal i#
         normal \date<cr>
-        read ~/.dot/.vim/templates/journal.skeleton
+        read ~/.config/myvimrc/templates/journal.skeleton
         normal jji
     endif
     execute 'Goyo'
 endfun
-nnoremap <leader>j :call Journal()<cr>
+" nnoremap <leader>j :call Journal()<cr>
 
 augroup journal
     autocmd!
