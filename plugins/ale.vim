@@ -5,12 +5,14 @@ Plug 'dense-analysis/ale'
 
 " Important: need to have these command line programs installed
 let g:ale_fixers = {
+    \ '*': ['prettier'],
     \ 'javascript': ['prettier', 'eslint'],
     \ 'rust': ['rustfmt'],
     \ 'typescript': ['prettier', 'eslint'],
     \ 'typescriptreact': ['prettier', 'eslint'],
     \ 'vue': ['eslint', 'prettier'],
     \ 'handlebars': ['prettier'],
+    \ 'html': ['prettier'],
     \ }
 
 let g:ale_sign_error = '=>'
