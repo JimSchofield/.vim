@@ -24,9 +24,10 @@ nnoremap <leader>a :ALEFix<CR>
 nnoremap <leader>] :ALENextWrap<CR>
 
 " Fugitive
-nnoremap <leader>gs :Gstatus<CR>
+nnoremap <leader>gs :Git<CR>
 nnoremap <leader>gc :Git commit<CR>
 nnoremap <leader>gca :Git commit --amend<CR>
+nnoremap <leader>gb :Git blame<CR>
 
 " Indent lines
 nnoremap <leader>tab :IndentLinesToggle<CR>

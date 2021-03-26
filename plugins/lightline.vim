@@ -32,7 +32,7 @@ endfunction
 function! GetAleWarnings()
   let l:counts = ale#statusline#Count(bufnr(''))
   let l:all_warnings = l:counts.warning + l:counts.style_warning
-  return l:all_warnings == 0 ? '' : printf('⚠️' . '%d', all_warnings)
+  return l:all_warnings == 0 ? '' : printf('⚠️ ' . '%d', all_warnings)
 endfunction
 
 function! AleChecking()

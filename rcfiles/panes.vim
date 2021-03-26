@@ -11,10 +11,3 @@
 " how that feels
 nnoremap <leader>tq :tabclose<CR>
 
-" Close relative windows
-nnoremap <C-x>j :winc j<CR> :q<CR>
-nnoremap <C-x>h :winc h<CR> :q<CR>
-nnoremap <C-x>k :winc k<CR> :q<CR>
-nnoremap <C-x>l :winc l<CR> :q<CR>
-
-

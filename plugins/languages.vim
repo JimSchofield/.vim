@@ -9,8 +9,10 @@ Plug 'cakebaker/scss-syntax.vim'
 Plug 'posva/vim-vue'
 Plug 'rust-lang/rust.vim'
 Plug 'cespare/vim-toml'
-Plug 'joukevandermaas/vim-ember-hbs'
 Plug 'elixir-editors/vim-elixir'
+Plug 'joukevandermaas/vim-ember-hbs'
+Plug 'nullvoxpopuli/coc-ember', {'do': 'yarn install --frozen-lockfile'}
+ 
 
 augroup filetypedetect
     au BufRead,BufNewFile *.ex set filetype=elixir
