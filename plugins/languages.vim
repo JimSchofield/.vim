@@ -11,6 +11,7 @@ Plug 'rust-lang/rust.vim'
 Plug 'cespare/vim-toml'
 Plug 'joukevandermaas/vim-ember-hbs'
 Plug 'elixir-editors/vim-elixir'
+Plug 'neovimhaskell/haskell-vim'
 
 augroup filetypedetect
     au BufRead,BufNewFile *.ex set filetype=elixir
