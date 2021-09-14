@@ -12,7 +12,6 @@ Plug 'cespare/vim-toml'
 Plug 'elixir-editors/vim-elixir'
 Plug 'joukevandermaas/vim-ember-hbs'
 Plug 'nullvoxpopuli/coc-ember', {'do': 'yarn install --frozen-lockfile'}
- 
 
 augroup filetypedetect
     au BufRead,BufNewFile *.ex set filetype=elixir
